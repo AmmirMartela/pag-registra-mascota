@@ -1,0 +1,337 @@
+.contenedor{
+    background-image: url('img1.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el div */
+    background-position: center; /* Centra la imagen dentro del div */
+    width: 1500px; /* Ancho del div */
+    height: 500px; /* Alto del div */
+    border: 1px solid rgb(0, 0, 0); /* Borde para mostrar el div */
+    margin: 0 auto; /* Centra el div horizontalmente */
+
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    width: 80px;
+    height: 80px;
+    padding: 15px 50px;
+ }
+ .menu {
+    color: rgb(16, 11, 4);
+    text-align: right;
+    padding: 20px 10px;
+    text-decoration: none;
+    display: flex;
+    background-color: #eca62e;
+    float: right;
+    justify-content: right;
+    
+    
+ }
+ a {
+    color: #333; /* Color del texto */
+    text-decoration: none; /* Quita la subrayado del enlace */
+    padding: 5px 10px; /* Espacio interno en los enlaces */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+ .texto{
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    padding-top: 50px; /* Espacio superior para centrar verticalmente el texto */
+    position: absolute; /* Establece la posición absoluta para el texto */
+    top: 30%; /* Posiciona el texto en el 50% desde arriba */
+    left: 50%; /* Posiciona el texto en el 50% desde la izquierda */
+    transform: translate(-50%, -50%); 
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: -1px -1px 0 #000,  
+                1px -1px 0 #000,
+               -1px 1px 0 #000,
+                1px 1px 0 #000;
+ }
+ .si{
+    display: flex;
+    justify-content: center;
+ }
+ .sis{
+    background-color: rgb(213, 105, 10);
+    margin: 5px 10px;
+    padding: 5px 30px;
+    color: beige;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    text-align: center;
+    font-size:24px
+
+}
+.contenedor2{
+    background-image: url('img2.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el div */
+    background-position: center; /* Centra la imagen dentro del div */
+    width: 1500px; /* Ancho del div */
+    height: 200px; /* Alto del div */
+    border: 1px solid black; /* Borde para mostrar el div */
+    margin: 0 auto; /* Centra el div horizontalmente */
+
+
+}
+.req{
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    padding-top: 50px; /* Espacio superior para centrar verticalmente el texto */
+    position: absolute; /* Establece la posición absoluta para el texto */
+    top: 98%; /* Posiciona el texto en el 50% desde arriba */
+    left: 50%; /* Posiciona el texto en el 50% desde la izquierda */
+    transform: translate(-50%, -50%); 
+}
+.plomo{
+    background-color: rgb(57, 52, 47);
+    margin: 5px 10px;
+    padding: 5px 30px;
+    color: beige;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    justify-content: center;
+    font-size:24px 
+    
+    
+
+}
+.p{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.contenedorr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    grid-auto-rows: auto; /* Altura automática */
+    gap: 20px; /* Espacio entre las cajas */
+}
+
+.caja {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.caja:hover {
+    background-color: #e0e0e0;
+}
+.caja i {
+    font-size: 24px; /* Tamaño del icono */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Alinear el icono en la parte superior */
+    left: 50%; /* Centrar horizontalmente el icono */
+    transform: translateX(-50%); /* Ajustar la posición horizontal del icono */
+}
+.req2{
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    padding-top: 50px; /* Espacio superior para centrar verticalmente el texto */
+    position: absolute; /* Establece la posición absoluta para el texto */
+    top: 165%; /* Posiciona el texto en el 50% desde arriba */
+    left: 50%; /* Posiciona el texto en el 50% desde la izquierda */
+    transform: translate(-50%, -50%); 
+}
+.req3{
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    padding-top: 50px; /* Espacio superior para centrar verticalmente el texto */
+    position: absolute; /* Establece la posición absoluta para el texto */
+    top: 174%; /* Posiciona el texto en el 50% desde arriba */
+    left: 50%; /* Posiciona el texto en el 50% desde la izquierda */
+    transform: translate(-50%, -50%); 
+}
+.img3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.botones-en-filas {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+    grid-auto-rows: auto; /* Altura automática */
+    gap: 10px; /* Espacio entre los botones */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    list-style-type: none; /* Elimina los números de la lista */
+}
+
+.botones-en-filas li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-en-filas button {
+    width: 1000px; /* Ancho de cada botón */
+    height: 50px; /* Altura de cada botón */
+    border: none;
+    border-radius: 5px;
+    background-color: #585b5e; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    font-size: 16px; /* Tamaño de fuente del texto del botón */
+    cursor: pointer;
+}
+
+.botones-en-filas button:hover {
+    background-color: #404347; /* Color de fondo del botón al pasar el cursor */
+}
+.cajas {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+}
+.req4{
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    padding-top: 50px; /* Espacio superior para centrar verticalmente el texto */
+    position: absolute; /* Establece la posición absoluta para el texto */
+    top: 270%; /* Posiciona el texto en el 50% desde arriba */
+    left: 50%; /* Posiciona el texto en el 50% desde la izquierda */
+    transform: translate(-50%, -50%); 
+}
+.req5{
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    padding-top: 50px; /* Espacio superior para centrar verticalmente el texto */
+    position: absolute; /* Establece la posición absoluta para el texto */
+    top: 279%; /* Posiciona el texto en el 50% desde arriba */
+    left: 50%; /* Posiciona el texto en el 50% desde la izquierda */
+    transform: translate(-50%, -50%); 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ .centeer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 243, 241);
+ }
+ .formu {
+    margin: 10px 15px;
+    padding: 15px 50px;
+    float: right;
+    width: 45%;
+    border: 1px solid #0f0f0f;
+    border-radius: 7px;
+  }
+  .boton{
+
+    display: flex;
+    justify-content: right;
+  }
+  .colorcito{
+    background-color: rgb(64, 71, 205);
+    border-radius: 7px;
+    width: 50px;
+    margin: 10px;
+  }
+  .colorcito2{
+    background-color: rgb(234, 235, 246);
+    border-radius: 7px;
+    width: 59px;
+    margin: 10px;
+  }
+.req6{
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    padding-top: 50px; /* Espacio superior para centrar verticalmente el texto */
+    position: absolute; /* Establece la posición absoluta para el texto */
+    top: 315%; /* Posiciona el texto en el 50% desde arriba */
+    left: 50%; /* Posiciona el texto en el 50% desde la izquierda */
+    transform: translate(-50%, -50%); 
+}
+.req7{
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    padding-top: 50px; /* Espacio superior para centrar verticalmente el texto */
+    position: absolute; /* Establece la posición absoluta para el texto */
+    top: 322%; /* Posiciona el texto en el 50% desde arriba */
+    left: 50%; /* Posiciona el texto en el 50% desde la izquierda */
+    transform: translate(-50%, -50%); 
+}
+.uno{
+    display: flex;
+    justify-content: center;
+}
+.george {
+    
+    text-decoration: none;
+    width: 14%;
+    background-color: rgb(68, 111, 222);
+    margin: 5px 10px;
+    padding: 5px 30px;
+    color: rgb(234, 227, 227);
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.contenedor3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide el contenedor en dos columnas de tamaño igual */
+    grid-column-gap: 3; /* Elimina el espacio entre columnas */
+}
+
+.caja1, .caja2 {
+    border: 1px solid black; /* Solo para visualización */
+    padding: 20px; /* Solo para visualización */
+    justify-content: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+.logfooter{
+    display: left;
+    width: 160px;
+    height: 150px;
+    padding: 2px 15px 20px 25px;
+}
+.redes-sociales a {
+    color: #f4efef; /* Color del ícono */
+    font-size: 24px; /* Tamaño del ícono */
+    margin: 0 10px; /* Espacio entre los íconos */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    transition: color 0.3s; /* Transición suave del color al pasar el mouse */
+}
+
+.redes-sociales a:hover {
+    color: #007bff; /* Cambia el color del ícono al pasar el mouse */
+}
+.button {
+    width: 60%;
+    padding: 10px 20px; /* Ajusta el tamaño del botón */
+    background-color: #7f858b; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Agrega bordes redondeados al botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño del texto del botón */
+    margin: 3px;
+
+  }
+.button:hover{
+    color: #f0eeee;
+    background-color: #333;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
